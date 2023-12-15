@@ -2,8 +2,8 @@
 
 **Code Includes Three Files:**
 
-1.  Data Pre-processing
-2.  Exploratory Data Analysis
-3.  Correlation Analysis
-4.  Regression and Predictive Analysis
-5.  Hypothesis Testing
+data_preprocessing.R for Data Pre-processing work.
+
+eda_correlation_regression.R for Exploratory Data Analysis, Correlation Analysis, and Regression and Predictive Analysis.
+
+hypothesis_testing.R for Hypothesis Testing.
