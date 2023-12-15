@@ -12,8 +12,6 @@ amazon_data
 library(ggplot2)
 library(dplyr)
 
-# Assuming 'amazon_data' contains your dataset
-
 # Perform ANOVA for all categories
 anova_result <- aov(stars ~ categoryName, data = amazon_data)
 summary(anova_result)
