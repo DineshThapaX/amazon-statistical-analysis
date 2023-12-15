@@ -8,11 +8,7 @@ setwd("D:/MSc Big Data/Applied Statistics/Dataset")
 amazon_dataset <- read.csv("amazon_dataset.csv")
 amazon_dataset
 
-# Load necessary libraries if required
-# install.packages("dplyr")
 library(dplyr)
-
-# Assuming your dataset is named 'amazon_dataset' and is already loaded
 
 # Step 1: Removing 'imgURL' and 'productURL' columns
 processed_data <- select(amazon_dataset, -c(imgUrl, productURL))

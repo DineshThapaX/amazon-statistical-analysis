@@ -1,4 +1,3 @@
-
 # To get the current directory
 getwd()
 
@@ -122,8 +121,6 @@ top_summary_table
 library(ggplot2)
 library(dplyr)
 
-# Assuming 'preprocessed_data' contains your dataset
-
 # Scatter plot to visualize the correlation between reviews and star ratings
 ggplot(preprocessed_data, aes(x = reviews, y = stars)) +
   geom_point(alpha = 0.6, size = 2, color = 'blue') +
@@ -160,8 +157,6 @@ cat("Correlation coefficient between reviews and star ratings:", correlation, "\
 library(ggplot2)
 library(dplyr)
 
-# Assuming 'preprocessed_data' contains your dataset
-
 # Scatter plot to visualize the correlation between price and sales volume
 ggplot(preprocessed_data, aes(x = price, y = boughtInLastMonth)) +
   geom_point(alpha = 0.6, size = 2, color = 'green') +
@@ -193,7 +188,6 @@ ggplot(preprocessed_data, aes(x = price, y = boughtInLastMonth)) +
 library(ggplot2)
 library(dplyr)
 
-# Assuming 'preprocessed_data' contains your dataset
 
 # Convert isBestSeller to factor
 preprocessed_data$isBestSeller <- as.factor(preprocessed_data$isBestSeller)
@@ -218,7 +212,6 @@ ggplot(preprocessed_data, aes(x = reviews, y = predicted_values)) +
 
 
 #Question 6
-# Assuming your dataset is named 'preprocessed_data'
 
 # Load necessary libraries
 library(ggplot2)
